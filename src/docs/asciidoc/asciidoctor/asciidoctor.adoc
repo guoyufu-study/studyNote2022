@@ -1,0 +1,29 @@
+=== asciidoctor
+
+https://asciidoctor.cn/[Asciidoctor] 是一个快速的、开源的、基于 ruby 的文本处理程序，可以将 AsciiDoc® 解析为文档模型，并将其转换为输出格式，如 HTML 5、DocBook 5、手册页、PDF、EPUB 3 和其他格式。
+
+Asciidoctor 还拥有一个由扩展、转换器、构建插件和工具组成的生态系统，可帮助您创作和发布用 https://docs.asciidoctor.org/asciidoctor/latest/#relationship-to-asciidoc[AsciiDoc] 编写的内容。 您可以在 https://docs.asciidoctor.org 上找到这些项目的文档。
+
+除了在 Ruby 上运行之外，Asciidoctor 还可以在使用 https://github.com/asciidoctor/asciidoctorj[AsciidoctorJ] 的 JVM 或使用 https://github.com/asciidoctor/asciidoctor.js[Asciidoctor.js] 的任何 JavaScript 环境中执行。
+
+==== AsciiDoc 处理和内置转换器
+
+AsciiDoc 是语言。
+Asciidoctor 是处理器。
+
+Asciidoctor 读取 AsciiDoc 源代码，如下图左侧面板所示，并将其转换为可发布格式，例如 HTML 5。
+
+Asciidoctor 默认为三种输出格式提供内置 https://docs.asciidoctor.org/asciidoctor/latest/converters/[转换器]： https://docs.asciidoctor.org/asciidoctor/latest/html-backend/[HTML 5]、 https://docs.asciidoctor.org/asciidoctor/latest/docbook-backend/[DocBook 5] 和 https://docs.asciidoctor.org/asciidoctor/latest/manpage-backend/[手册页]。 其他转换器，例如 PDF 和 EPUB 3，由单独的 gem 提供。 Asciidoctor 还提供开箱即用的 HTML 体验，包括 https://docs.asciidoctor.org/asciidoctor/latest/html-backend/default-stylesheet/[默认样式表]和内置集成，如 Font Awesome（用于图标）、highlight.js、Rouge 和 Pygments（用于源代码突出显示）和 MathJax（用于 STEM 处理）。
+
+==== Asciidoctor 生态系统
+
+尽管 Asciidoctor 是用 Ruby 编写的，但这并不意味着您需要 Ruby 才能使用它。 Asciidoctor 可以使用 https://docs.asciidoctor.org/asciidoctorj/latest/[AsciidoctorJ] 在 JVM 上执行，也可以使用 https://docs.asciidoctor.org/asciidoctor.js/latest/[Asciidoctor.js] 在任何 JavaScript 环境（包括浏览器）中执行。
+
+安装 Asciidoctor 处理器只是您发布体验的开始。 Asciidoctor 使您可以访问扩展和工具的生态系统，从附加转换器到扩展语法，到构建插件，再到集成的编写和预览环境：
+
+* https://docs.asciidoctor.org/diagram-extension/latest/[Asciidoctor 图]
+* https://docs.asciidoctor.org/maven-tools/latest/[Maven 插件和站点模块]
+* https://github.com/asciidoctor/asciidoctor-gradle-plugin[Gradle 插件]
+* https://github.com/asciidoctor[更多]
+
+Asciidoctor 是 AsciiDoc.py 的继承者。 如果您使用的是 AsciiDoc.py，请参阅 https://docs.asciidoctor.org/asciidoctor/latest/migrate/asciidoc-py/[从 AsciiDoc.py 迁移] 以了解如何升级到 Asciidoctor。

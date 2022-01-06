@@ -1,0 +1,17 @@
+= 学习笔记
+Doc Writer <guoyufu_study@163.com>
+v1.0 2022-01-06
+:toc: left
+:toc-title: 目录
+:toclevels: 4
+:pdf-fontsdir: data/fonts
+:pdf-themesdir: data/themes
+:pdf-theme: SourceHanSerifCN
+:sectnums:
+:sectanchors:
+:icons: font
+
+
+== 辅助工具
+
+include::asciidoctor/asciidoctor.adoc[ASC]

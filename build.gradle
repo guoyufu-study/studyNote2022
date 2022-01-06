@@ -1,0 +1,26 @@
+plugins {
+    id 'org.asciidoctor.jvm.convert' version '3.3.2'
+    id 'org.asciidoctor.jvm.pdf' version '3.3.2'
+}
+
+repositories {
+    mavenCentral()
+}
+
+asciidoctor {
+    baseDirFollowsSourceDir()
+}
+
+asciidoctorj {
+    modules.pdf {
+        version  '1.6.2'
+    }
+}
+
+asciidoctorPdf {
+    baseDirFollowsSourceDir()
+    sources {
+        include 'index.adoc'
+    }
+}
+
